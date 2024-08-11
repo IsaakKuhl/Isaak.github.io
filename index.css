@@ -1,1 +1,88 @@
+/* 基础设置 */
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
 
+
+header .til-top{
+    text-align: center;
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.into-up{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 60px;
+    font-size: 20px;
+}
+.into-up div{
+    border-bottom: 3px solid gray;
+}
+.into-down{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 60px;
+    font-size: 20px;
+}
+.into-down div{
+    border-bottom: 3px solid gray;
+}
+.tit-edu{
+    font-size: 30px;
+    margin: 0px 60px;
+    font-weight: bold;
+}
+.tit-edu span:first-child{
+    color: indigo;
+}
+.tit-edu span:nth-child(2){
+    color: gray;
+}
+.education{
+    margin: 20px 60px;
+}
+.tit-exp{
+    font-size: 30px;
+    margin: 0px 60px;
+    font-weight: bold;
+}
+.tit-exp span:first-child{
+    color: indigo;
+}
+.tit-exp span:nth-child(2){
+    color: gray;
+}
+.experience{
+    margin: 20px 60px;
+}
+.edu-info{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 15px;
+}
+.edu-scb span:first-child{
+    font-weight: bold;
+}
+
+.exp-info{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.exp-scb span{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.exp-scb span:nth-child(n+1){
+    font-weight: bold;
+}
