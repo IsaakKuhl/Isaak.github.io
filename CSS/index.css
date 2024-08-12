@@ -12,7 +12,8 @@ body{
 /* 头部 */
 header .til-top{
     text-align: center;
-    background-color: bisque;
+    background-color: gray;
+    opacity: 0.5;
 }
 h1{
     text-align: center;
@@ -26,6 +27,7 @@ h2{
     justify-content: space-between;
     margin: 20px 60px;
     font-size: 20px;
+    color: whitesmoke;
 }
 .into-up div{
     border-bottom: 3px solid gray;
@@ -35,6 +37,7 @@ h2{
     justify-content: space-between;
     margin: 20px 60px;
     font-size: 20px;
+    color: whitesmoke;
 }
 .into-down div{
     border-bottom: 3px solid gray;
@@ -53,6 +56,7 @@ h2{
 }
 .education{
     margin: 20px 60px;
+    color: whitesmoke;
 }
 .edu-info{
     display: flex;
@@ -65,11 +69,15 @@ h2{
 }
 
 /* 职业技能 */
+.skill{
+    margin: 20px 60px;
+    color: whitesmoke;
+}
 .skl-scb span{
     display: flex;
     flex-direction: column;
     padding: 0 20px;
-    margin: 0 60px;
+    
 }
 .skl-scb span:last-child{
     margin-bottom: 20px;
@@ -89,6 +97,7 @@ h2{
 }
 .experience{
     margin: 20px 60px;
+    color: whitesmoke;
 }
 .exp-info{
     display: flex;
@@ -104,4 +113,8 @@ h2{
 .exp-scb span:nth-child(n+1){
     font-weight: bold;
 }
+/* 底部 */
+.footer{
+    height: 300px;
 
+}
