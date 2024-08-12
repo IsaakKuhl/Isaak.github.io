@@ -3,7 +3,12 @@
     width: 1190px;
     margin: 0 auto;
 }
-
+body{
+    background-repeat: repeat-y;
+    background-position: top left;
+    background-image: url("../img/menu-bg2.jpg");
+    background-size: 100vw auto;
+}
 /* 头部 */
 header .til-top{
     text-align: center;
